@@ -16,10 +16,10 @@
   padding: 0 10px;
 }
 .textField.error {
-  border-color: #ff0000;
+  border-color: #b30000;
 }
 .errorMessage {
   margin: 2px 0 0;
   font-size: 14px;
-  color: #ff0000;
+  color: #b30000;
 }
