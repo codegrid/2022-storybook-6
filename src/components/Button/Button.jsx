@@ -30,7 +30,7 @@ Button.propTypes = {
   /** ボタンを親要素いっぱいに広げる */
   fullWidth: PropTypes.bool,
   /** ボタンの内容 */
-  children: React.ReactNode,
+  children: PropTypes.string,
 }
 
 Button.defaultProps = {
