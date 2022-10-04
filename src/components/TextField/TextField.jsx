@@ -12,7 +12,8 @@ export const TextField = ({ id, label, type, errorMessage, onChange, onBlur }) =
 
   return (
     <div className={styles.controlGroup}>
-      <label className={styles.label}>
+      {/* 👇idをhtmlFor属性で指定（forはJavaScriptの予約語なので、代わりにhtmlForを使用）*/}
+      <label htmlFor={id} className={styles.label}>
         {label}
       </label>
       <input id={id} type={type} onChange={onChange} onBlur={onBlur} className={classNames} />
