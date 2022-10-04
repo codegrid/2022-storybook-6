@@ -7,4 +7,16 @@ export const parameters = {
     },
     expanded: true,
   },
+  // // 👇a11yアドオンの設定
+  // a11y: {
+  //   config: {
+  //     rules: [
+  //       // 👇色のコントラスト比の検査を無効化
+  //       {
+  //         id: 'color-contrast',
+  //         enabled: false
+  //       },
+  //     ],
+  //   },
+  // },
 }
